@@ -3,14 +3,14 @@ let x = 12;
 console.log('x =', x);
  
 //arithmetic
- let add = 10+4;
- //console.log('sum =', add);
+let add = 10 + 4;
+console.log('sum =', add);
 let sub = 10 - 4;
 console.log('sub =', sub);
-let mul = 10 * 4;s
+let mul = 10 * 4;
 console.log('mul =', mul);
 let div = 10 / 2;
-conslole.log('div =', div);
+console.log('div =', div);
 let mod = 8 % 2;
 console.log('mod =', mod);
 let pow = 10 ** 2;
@@ -42,9 +42,9 @@ console.log('value2 =', value2);
 value3 *= INCREMENT_VALUE; 
 console.log('value3 =', value3);
 value4 /= INCREMENT_VALUE; 
-//console.log('value4 =', value4);
+console.log('value4 =', value4);
 value5 %= INCREMENT_VALUE; 
-//colsole.log('value5 =', value5);
+console.log('value5 =', value5);
 
 //comparison
 let eq = 5 == 5;
@@ -57,7 +57,7 @@ let seq2 = 5 === '5';
 console.log("strict equality =", seq1);
 console.log('strict equality =', seq2);
 
-let uneg  = 5 != '5';
+let uneq  = 5 != '5';
 let suneq = 5 !== '5';
 console.log('unequality =', uneq);
 console.log('strict unequality =', suneq);
@@ -77,3 +77,14 @@ let statement2 = 0 > 1; //false
 
 let antitruth =! statement1;
 console.log('antitruth =', antitruth);
+
+let or = statement1;
+console.log('or =', or);
+
+//typeof
+let str = typeof "John";
+let nmb = 3.14;
+let bool = typeof false;
+console.log('str =', str);
+console.log('nmb =', nmb);
+console.log('bool =', bool);
