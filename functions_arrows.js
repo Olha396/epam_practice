@@ -1,5 +1,5 @@
 /**
- * Arrow functions
+ * Array functions
  */
 // no keyword 'function'
 // have no 'this'
@@ -11,7 +11,7 @@
 //};
 
 
-// arrow function can be much shorter
+// array function can be much shorter
 
 // const sum = (a, b) => {return a + b;}
 

@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "fs-extra": "^11.1.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
