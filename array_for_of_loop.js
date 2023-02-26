@@ -15,3 +15,7 @@ for (let el of arr) {
     sum +=el;
 }
 console.log(sum); 
+
+do {
+    
+}
