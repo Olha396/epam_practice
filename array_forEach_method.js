@@ -3,10 +3,20 @@
 
 //arrayOfName.forEach(name => console.log(name));
 
+
+
 /**Index and value */
-    const arrayOfName = ['Alice', 'Jack', 'John', 'Jane', 'Bob'];
+//const arrayOfName = ['Alice', 'Jack', 'John', 'Jane', 'Bob'];
 
-    arrayOfName.forEach((name, index) => {
+//arrayOfName.forEach((name, index) => {
 
-        return console.log(`Element index: ${index} Element value: ${name}`);
-    });
+    //return console.log(`Element index: ${index} Element value: ${name}`);
+//});
+
+/**+arr */
+const arrayOfName = ['Alice', 'Jack', 'John', 'Jane', 'Bob'];
+
+arrayOfName.forEach((name, index, arr) => {
+
+    return console.log(`Index: ${index} Value: ${name} Array: ${arr}`);
+});
