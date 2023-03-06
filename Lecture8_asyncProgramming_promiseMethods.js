@@ -16,3 +16,11 @@
 //.then(data => {
  //})
 
+const rejectedPromise = fs.readFile('file3.txt', 'utf-8');
+rejectedPromise
+    .then(data => {
+    console.log(data)
+})
+.catch(err => {
+    console.log(err)
+});
