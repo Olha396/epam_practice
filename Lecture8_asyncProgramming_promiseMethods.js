@@ -1,11 +1,18 @@
-/** A call back function is a function passed to another function as an argument,
- * which is then invoked inside the outer function to complete some kind of routine or action.
- * Used in JS to organiza async code*/
-const fs = require('fs');
+/** A Promise object represents the eventual comletion (of failure),
+ * of an asynchronous operation and its resulting value.
+ * 
+ * promise states:
+ * pending: initil state , neither fullfilled nor rejected.
+ * fullfilled: meaning that the operation was completed sucessfully.
+ * rejected: meaning that the operation failed.*/
+//const fs = require('fs/promises');
 
-fs.readFile('file.txt', 'utf-8', handleResult);
+//const promise = fs.readFile('file.txt', 'utf-8');
 
-function handleResult(err, data) {
-    if(err) throw err
-    console.log(data);
-}
+//promise
+//.then(data => {
+    //return data
+//})
+//.then(data => {
+ //})
+
